@@ -24,5 +24,5 @@ document.getElementById('ageCalculator').addEventListener('submit', function(eve
         months += 12;
     }
 
-    document.getElementById('result').textContent = `You are ${years} years, ${months} months, and ${days} days old.`;
+    document.getElementById('result').innerHTML = `You are <span>${years} </span> years, <span>${months}</span> months, and <span>${days}</span> days old.`;
 });
